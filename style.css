@@ -1,0 +1,180 @@
+* {
+    background-color: lightgray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    border: 1px solid rgb(135, 198, 220);
+    color: rgb(47, 46, 46);
+    margin-right: 1100px;
+    background-color: rgb(135, 198, 220);
+    line-height: 60px;
+    position: relative;
+    background-color: rgb(135, 198, 220);
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+    width: 400px;
+}
+
+nav ul {
+    position: relative;
+    top: -60px;
+    width: 400px;
+    right: 10px;
+    margin: 0;
+    left: 900px;
+    background-color:rgb(47, 46, 46);
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    margin-right: 30px;
+    border-bottom: 4px solid rgb(135, 198, 220);
+    padding-bottom: 5px;
+    background-color: rgb(47, 46, 46); 
+    color: rgb(135, 198, 220);
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: rgb(135, 198, 220);
+    background-color: rgb(47, 46, 46);
+}
+
+header {
+    background-color: rgb(47, 46, 46);
+    padding: 1px 0px;
+}
+
+.image {
+    position: relative;
+    bottom: 30px;
+}
+
+.img {
+    width: 1425px;
+    height: 200px;
+}
+
+.subtitle {
+    border: 1px solid rgb(135, 198, 220);
+    position: relative;
+    bottom: 60px;
+    background-color: rgb(135, 198, 220);
+    color: rgb(47, 46, 46); 
+    left: 1100px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    font-size: 25px;
+}
+
+h2 {
+    position:relative;
+    text-align: right;
+    width: 200px;
+    height: 50px;
+    left: 120px;
+    font-size: 50px;
+    color: rgb(65, 101, 138);
+}
+
+.detail-1, .detail-2, .detail-3 {
+    position: relative;
+    top: -80px;
+    left: 400px;
+    border-left: 3px solid rgb(65, 101, 138);
+    padding-left: 50px;
+    left: 340px;
+    color: rgb(47, 46, 46);
+}
+
+.detail-1 {
+    height: 200px;
+    width: 900px;
+}
+
+.detail-2 {
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-3 {
+    height: 200px;
+}
+
+.detail-3 li {
+    display: inline;
+    position: relative;
+    top: 70px;
+    border-bottom: 2px solid rgb(65, 101, 138);
+    padding-bottom: 5px;
+    margin-left: 40px;
+    margin-right:60px;
+}
+
+div {
+    border: 3px solid rgb(135, 198, 220);
+    min-width: 438px;
+    min-height: 150px;
+    margin: 10px;
+    background-image: url("./assets/images/image-2.jpg");
+    filter: brightness(50%);
+    position:relative;
+}
+
+.box {
+    min-width: 900px;
+    min-height: 300px;
+}
+
+article {
+    border: 1px solid rgb(135, 198, 220);
+    background-color: rgb(135, 198, 220);
+    margin-top: 60px;
+    margin-right: 300px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    color: rgb(60, 58, 58);
+}
+
+h3 {
+    background-color: rgb(135, 198, 220);
+    position: relative;
+    text-align: center;
+    color: rgb(47, 46, 46);
+}
+
+.large {
+    border: 1px solid rgb(135, 198, 220);
+    background-color: rgb(135, 198, 220);
+    height: 80px;
+    margin-top: 190px;
+    margin-right: 750px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 14px;
+}
+
+.paragraph {
+    position: relative;
+    margin-left: 170px;
+    bottom: 170px;
+}
+
+#about-me-section, #work-section, #contact-me-section {
+    margin-bottom: -50px;
+}
+
+div:hover {
+    filter: none;
+}
