@@ -1,5 +1,5 @@
 * {
-    background-color: lightgray;
+    background-color: rgb(239, 233, 233);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -10,7 +10,6 @@ h1 {
     background-color: rgb(135, 198, 220);
     line-height: 60px;
     position: relative;
-    background-color: rgb(135, 198, 220);
     font-size: 40px;
     text-align: right;
     padding-right: 10px;
@@ -46,6 +45,9 @@ a:-webkit-any-link {
 header {
     background-color: rgb(47, 46, 46);
     padding: 1px 0px;
+    max-width: 1425px;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .image {
@@ -81,10 +83,14 @@ h2 {
     color: rgb(65, 101, 138);
 }
 
+/* main {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
 .detail-1, .detail-2, .detail-3 {
     position: relative;
     top: -80px;
-    left: 400px;
     border-left: 3px solid rgb(65, 101, 138);
     padding-left: 50px;
     left: 340px;
@@ -177,4 +183,12 @@ h3 {
 
 div:hover {
     filter: none;
+    /* background-image: url(""); */
 }
+
+body {
+    overflow-x: hidden; 
+    max-width: 1425px;
+}
+
+/* @ media screen and (max-width: ) */
