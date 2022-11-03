@@ -2,6 +2,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* top portion of header */
 .head {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +21,7 @@ h1 {
     width: 400px;
 }
 
+/* navigation bar */
 .head ul {
     display: flex;
     margin: 50px 20px 0px 0px;
@@ -34,11 +36,13 @@ h1 {
     padding-bottom: 5px;
 }
 
+/* removing auto link styles */
 a:-webkit-any-link {
     text-decoration: none;
     color: rgb(135, 198, 220);
 }
 
+/* bottom portion of header */
 .background {
     display: flex;
     align-items:flex-end;
@@ -54,12 +58,14 @@ a:-webkit-any-link {
     color:rgb(47, 46, 46)
 }
 
+
 main {
     background-color: rgb(218, 216, 216);
     display: flex;
     flex-wrap: wrap;
 }
 
+/* flexbox containers for each section */
 #about-me-section, #work-section, #contact-me-section {
     display: flex;
     flex-direction: row;
@@ -68,6 +74,7 @@ main {
     margin: 40px 0px;
 }
 
+/* titles for each container */
 .child-1, .child-4, .child-6 {
     width: 20%;
     text-align: right;
@@ -78,6 +85,7 @@ main {
     font-size: 40px;
 }
 
+/* container 1 */
 .child-2 {
     width: 120px;
     height: 120px;
@@ -91,6 +99,7 @@ main {
     margin: 20px 20px 0px 20px;
 }
 
+/* container 2 */
 .child-5{
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +117,7 @@ main {
     padding: 200px 720px 20px 0px;
 }
 
+/* project names and descriptions */
 article {
     border: 1px solid rgb(135, 198, 220);
     background-color:rgb(135, 198, 220);
@@ -120,6 +130,7 @@ h3 {
     font-size: 20px;
 }
 
+/* container 3 */
 .child-7 {
     width: 70%;
     padding: 40px 20px;
@@ -133,6 +144,7 @@ h3 {
     border-bottom: 2px solid rgb(49, 64, 96);
     padding-bottom: 5px;
 }
+
 
 .project:hover {
     background-image: url("./assets/images/image-2.jpg");
@@ -175,9 +187,14 @@ h3 {
         text-decoration: underline;
     }
     #large{
-        padding: 100px 260px 20px 0px;
+        padding: 100px 250px 20px 0px;
     }
     .project{
         padding: 70px 120px 20px 0px;
+        margin: 5px 10px;
+    }
+    h1 {
+        text-align: left;
+        padding-left: 10px;
     }
 }
