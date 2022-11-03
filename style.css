@@ -1,194 +1,184 @@
 * {
-    background-color: rgb(239, 233, 233);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(47, 46, 46);
 }
 
 h1 {
     border: 1px solid rgb(135, 198, 220);
     color: rgb(47, 46, 46);
-    margin-right: 1100px;
     background-color: rgb(135, 198, 220);
     line-height: 60px;
-    position: relative;
     font-size: 40px;
     text-align: right;
     padding-right: 10px;
     width: 400px;
 }
 
-nav ul {
-    position: relative;
-    top: -60px;
-    width: 400px;
-    right: 10px;
-    margin: 0;
-    left: 900px;
-    background-color:rgb(47, 46, 46);
+.head ul {
+    display: flex;
+    margin: 50px 20px 0px 0px;
 }
 
-nav ul li {
+.head ul li{
     display: inline;
-    position: relative;
-    margin-right: 30px;
-    border-bottom: 4px solid rgb(135, 198, 220);
-    padding-bottom: 5px;
-    background-color: rgb(47, 46, 46); 
     color: rgb(135, 198, 220);
+    border-bottom: 2px solid rgb(135, 198, 220);
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 a:-webkit-any-link {
     text-decoration: none;
     color: rgb(135, 198, 220);
-    background-color: rgb(47, 46, 46);
 }
 
-header {
-    background-color: rgb(47, 46, 46);
-    padding: 1px 0px;
-    max-width: 1425px;
-    /* display: flex;
-    flex-wrap: wrap; */
+.background {
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    background-image: url("./assets/images/image-1.jpg");
+    height: 180px;
 }
 
-.image {
-    position: relative;
-    bottom: 30px;
-}
-
-.img {
-    width: 1425px;
-    height: 200px;
-}
-
-.subtitle {
-    border: 1px solid rgb(135, 198, 220);
-    position: relative;
-    bottom: 60px;
+.welcome{
+    border: 1px solid  rgb(135, 198, 220);
     background-color: rgb(135, 198, 220);
-    color: rgb(47, 46, 46); 
-    left: 1100px;
-    text-align: center;
-    padding: 5px;
-    width: 300px;
-    font-size: 25px;
+    padding: 0px 10px;
 }
 
-h2 {
-    position:relative;
+main {
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    flex-wrap: wrap;
+    /*  */
+    /* flex: 1 0 auto; */
+}
+
+/* First parent container in main */
+#about-me-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    padding-top: 30px;
+    /* flex: 0 1 auto; */
+}
+
+.child-1 {
+    width: 20%;
     text-align: right;
-    width: 200px;
-    height: 50px;
-    left: 120px;
-    font-size: 50px;
-    color: rgb(65, 101, 138);
+    margin: 15px 20px 0px 20px;
+    border-right: 2px solid rgb(31, 51, 93);
+    color: rgb(31, 51, 93);
+    padding-right: 20px
 }
 
-/* main {
+.child-2 {
+    width: 10%;
+    width: 120px;
+    height: 120px;
+    text-align: right;
+    margin: 15px 20px 0px 20px;
+}
+
+.child-3 {
+    width: 55%;
+    text-align: left;
+    margin: 0 20px;
+}
+
+/* Second parent container in main */
+#work-section {
     display: flex;
     flex-wrap: wrap;
-  } */
-
-.detail-1, .detail-2, .detail-3 {
-    position: relative;
-    top: -80px;
-    border-left: 3px solid rgb(65, 101, 138);
-    padding-left: 50px;
-    left: 340px;
-    color: rgb(47, 46, 46);
+    margin-top: 30px;
+    /* flex: 0 1 auto; */
 }
 
-.detail-1 {
-    height: 200px;
-    width: 900px;
+.child-4 {
+    width: 20%;
+    text-align: right;
+    margin: 15px 20px 0px 20px;
+    border-right: 2px solid rgb(31, 51, 93);
+    color: rgb(31, 51, 93);
+    padding-right: 20px
 }
 
-.detail-2 {
-    height: 700px;
+.child-5 {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
+    text-align: left;
+    margin: 10px 0px 0px 10px;
+    /* flex: 1 0 50%; */
 }
 
-.detail-3 {
-    height: 200px;
-}
-
-.detail-3 li {
-    display: inline;
-    position: relative;
-    top: 70px;
-    border-bottom: 2px solid rgb(65, 101, 138);
-    padding-bottom: 5px;
-    margin-left: 40px;
-    margin-right:60px;
-}
-
-div {
-    border: 3px solid rgb(135, 198, 220);
-    min-width: 438px;
-    min-height: 150px;
+.project {
+    border: 4px solid rgb(135, 198, 220);
+    padding: 70px 310px 20px 0px;
     margin: 10px;
-    background-image: url("./assets/images/image-2.jpg");
-    filter: brightness(50%);
-    position:relative;
-}
-
-.box {
-    min-width: 900px;
-    min-height: 300px;
+    background-image: url("./assets/images/image-4.jpg");
+    /*  */
+    /* flex: 1 0 50%; */
 }
 
 article {
     border: 1px solid rgb(135, 198, 220);
-    background-color: rgb(135, 198, 220);
-    margin-top: 60px;
-    margin-right: 300px;
-    padding-bottom: 10px;
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    color: rgb(60, 58, 58);
-}
-
-h3 {
-    background-color: rgb(135, 198, 220);
-    position: relative;
-    text-align: center;
+    background-color:rgb(135, 198, 220);
     color: rgb(47, 46, 46);
+    padding: 0px 20px 2px 10px;
 }
 
 .large {
-    border: 1px solid rgb(135, 198, 220);
-    background-color: rgb(135, 198, 220);
-    height: 80px;
-    margin-top: 190px;
-    margin-right: 750px;
+    padding: 200px 770px 20px 0px;
+    min-width: 100px;
+    /* flex: 1 0 50%; */
 }
 
-.profile {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    right: 14px;
+h3 {
+    margin: 4px 0px;
+    font-size: 20px;
 }
 
-.paragraph {
-    position: relative;
-    margin-left: 170px;
-    bottom: 170px;
+/* Third parent container in main */
+#contact-me-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    /* flex: 0 1 auto; */
 }
 
-#about-me-section, #work-section, #contact-me-section {
-    margin-bottom: -50px;
+.child-6 {
+    width: 20%;
+    text-align: right;
+    margin: 15px 20px 10px 20px;
+    border-right: 2px solid rgb(31, 51, 93);
+    color: rgb(31, 51, 93);
+    padding-right: 20px
 }
 
-div:hover {
-    filter: none;
-    /* background-image: url(""); */
+.child-7 {
+    width: 70%;
+    padding: 40px 20px;
 }
 
-body {
-    overflow-x: hidden; 
-    max-width: 1425px;
+.child-7 li {
+    display: inline;
+    margin: 0px 40px;
+    color:rgb(47, 46, 46);
+    border-bottom: 2px solid rgb(31, 51, 93);
+    padding-bottom: 5px;
 }
 
-/* @ media screen and (max-width: ) */
+.project:hover {
+    background-image: url("./assets/images/image-2.jpg");
+}

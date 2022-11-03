@@ -29,5 +29,3 @@ The following link presents the deployed application:
 The following image demonstrates the web application's appearance:
 
 [Web application appearance](./assets/images/web-appearance.jpg)
-
-
