@@ -21,8 +21,8 @@ Work individually to implement the following user story:
 ## Notes
 
 The following link presents the deployed application:
-<!-- add link -->
-[Live website]()    
+
+[Live website](https://karinnesagir.github.io/Portfolio-CSS/)    
 
 ## Assets
 
