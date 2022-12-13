@@ -2,7 +2,6 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* top portion of header */
 .head {
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +112,7 @@ main {
     background-image: url("./assets/images/image-4.jpg");
 }
 
+
 #large{
     padding: 200px 720px 20px 0px;
 }
@@ -148,6 +148,11 @@ h3 {
 
 .project:hover {
     background-image: url("./assets/images/image-2.jpg");
+}
+
+.grubFinder:hover{
+    background-image: url("./assets/images/GrubFinder.jpg");
+    filter: brightness(90%); 
 }
 
 @media screen and (max-width: 1100px){
